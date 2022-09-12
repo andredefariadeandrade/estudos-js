@@ -3,9 +3,11 @@ const numerosPares = numeros.filter((valor) => {
     if(valor % 2 === 0){
         return valor;
     }
-}).map((valor) => {
+})
+.map((valor) => {
     return valor * 2
-}).reduce((acum, valor) => {
+})
+.reduce((acum, valor) => {
     console.log(acum);
     return acum + valor;
 });
