@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de Cadastro</h1>
+
+    <ul>
+      <li> Nenhum campo pode estar vazio</li>
+      <li> Usuário só poderá conter letras e / ou número</li>
+      <li> Nenhum campo pode estar vazio</li>
+      <li> Nenhum campo pode estar vazio</li>
+      
+    </ul>
+
+    <form action="/" method="POST" class="formulario">
+
+      <label> NOME </label>
+      <input type="text" class="nome validar">
+      <label> SOBRENOME </label>
+      <input type="text" class="sobrenome validar">
+      <label> CPF </label>
+      <input type="text" class="cpf validar">
+      <label> USUÁRIO </label>
+      <input type="text" class="usuario validar">
+      <label> SENHA </label>
+      <input type="password" class="senha validar">
+      <label> REPETIR SENHA </label>
+      <input type="password" class="repete-senha validar">
+
+      <button type="submit" class="enviar"></button>
+
+    </form>
+  </section>
+
+  <script src="./assets/js/validaCpf.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
