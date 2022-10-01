@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAGAA,QAAQC,IAAI","sources":["webpack://aula80/./src/index.js"],"sourcesContent":["\n//\n//\nconsole.log('\\n================================');\nconst andre = '';\nconst to = 'to com fome';"],"names":["console","log"],"sourceRoot":""}
